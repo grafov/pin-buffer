@@ -3,12 +3,14 @@
 When you switch a buffer in GNU/Emacs it could reuse any of opened
 windows to place new buffer content. Sometimes this behavior is
 annoying. The extension just pins buffer to current window in
-GNU/Emacs. It will omited during switching buffers and using for
+GNU/Emacs. It will omited during switching buffers and not used for
 popups until you unpin it (or close it).
 
 * toggles buffer state between dedicated/normal
 * displays 📌 in modeline for dedicated mode
 * it's all
+
+![example](screenshot.png)
 
 ## Install with straight
 
